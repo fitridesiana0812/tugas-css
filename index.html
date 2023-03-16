@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Instagram Login</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style type="text/css">
+            /* pengaturan background */
+            body {
+                background-color: #fafafa;
+            }
+            /* pengaturan gambar phone */
+            .gmb-hp {
+                padding-top: 10px;
+                width: 35%;
+                margin-left: auto;
+                margin-right:44%;
+                display: block;
+                padding-bottom: 0px;
+            }
+            /* pengaturan box login */
+            .login-box {
+                padding-top: 10px;
+                width: 25%;
+                margin-top: 20px;
+                margin-left: auto;
+                margin-right: 23%;
+                display: block;
+                padding-bottom: 0px;
+                background-color: white;
+                border: solid 1px rgb(214, 214, 214);
+            }
+            /* pengaturan box login2 */
+            .login-box-2 {
+                margin-top: 10px;
+                margin-bottom: 0px;
+                width: 25%;
+                margin-left: auto;
+                margin-right: 23%;
+                background-color: white;
+                border: solid 1px #d6d6d6;
+                padding: 12px 0px;
+                font-family: system-ui;
+                font-size: 14px;
+                text-align: center;
+            }
+            /* pengaturan box login3 */
+            .login-box-3 {
+                margin-top: 0px;
+                margin-bottom: 40px;
+                width: 25%;
+                margin-left: auto;
+                margin-right: 23%;
+                background-color: white;
+                padding: 0px 0px;
+                font-family: system-ui;
+                font-size: 14px;
+                text-align: center;
+            }
+            /* pengaturan logo tulisan Instagram*/
+            .ig-logo {
+                padding-top: 0px;
+                padding-bottom: 20px;
+                width: 50%;
+                margin-left: auto;
+                margin-right: auto;
+                display: block;
+            }
+            /* pengaturan tombol OR */
+            .atau {
+                width: 80%;
+                text-align: center;
+                border-bottom: 1px solid #000000;
+                line-height: 0.1em;
+                margin: 30px 0 20px;
+                margin-left: 10%;
+                color: #003569;
+                font-size: 14px;
+                text-decoration: none;
+                font-family: system-ui;
+                cursor: pointer;
+            }
+            /* pengaturan tombol OR 2*/
+            .atau span {
+                background: white;
+                padding: 0 20px;
+            }
+            /* pengaturan form login */
+            .input-1,
+            .input-2 {
+                width: 80%;
+                margin-bottom: 5px;
+                margin-left: 10%;
+                padding: 12px 12px;
+                background-color: #00000009;
+                border: 1px solid #d6d6d6;
+                box-sizing: border-box;
+                border-radius: 3px;
+            }
+            /* pengaturan text form login */
+            .overlap-text {
+                position: relative;
+            }
+            /* pengaturan text form login */
+            .overlap-text a {
+                position: absolute;
+                top: 8px;
+                right: 10px;
+                color: #003569;
+                font-size: 14px;
+                text-decoration: none;
+                font-family: system-ui;
+                letter-spacing: -1px;
+            }
+            /* pengaturan button */
+            .btn {
+                width: 80%;
+                margin-top: 10px;
+                margin-left: 10%;
+                padding: 8px 12px;
+                background-color: #3897f0;
+                border: 1px solid #3897f0;
+                color: #fff;
+                font-weight: bold;
+                cursor: pointer;
+                border-radius: 3px;
+            }
+            /* pengaturan text center */
+            .text-center {
+                text-align: center !important;
+                text-decoration: none;
+                font-family: 'Overpass Mono', monospace;
+                font-weight: bold;
+                cursor: pointer;
+            }
+            /* pengaturan footer */
+            .footer {
+                width: 100%;
+                text-align: center !important;
+                margin-top: 20px;
+            }
+            /* pengaturan text p2 */
+            p2{
+                font-size:13px;
+                line-height: 1.5em;
+                color: #0000009c;
+                word-spacing: 1.5em;
+            }
+            /* pengaturan text p2 */
+            p3{
+                font-size:13px;
+                line-height: 4em;
+                color: #0000009c;
+                word-spacing: 0.5em;
+            }
+            /* pengaturan margin gambar */
+            .margin-gambar {
+                margin: 5px;
+            }
+        </style>
+    </head> 
+    
+    <body style= "margin : 0";>
+        <!-- implementasi gambar phone -->
+        <div class="gmb-hp">
+            <img src="phone-logo.PNG" align="left" width="75%">
+        </div>
+        <!-- implementasi box login -->
+        <div class="login-box">
+            <img class="ig-logo" src="instagram-logo.png">
+            <div class="l-part">
+                <input type="text" placeholder="Phone number, username, or email" class="input-1"/>
+            </div>
+            <div class="overlap-text">
+                <input type="password" placeholder="Password" class="input-2"/>
+            </div>
+                <input type="button" value="Log In" class="btn"/>
+            <br>
+            <p class="atau"><span><b> OR </b></span></p>
+            <div class="text-center">
+                <font size="3" style="color: #385185;">
+                    <i class="fa fa-facebook-square"></i> 
+                    Log in with Facebook
+                </font>
+                <br>
+                <h5 style="color: #385185;" margin-bottom="0">
+                    Forget password?
+                </h5>
+            </div>
+        </div>
+        <div class="login-box-2">Don't have an account? 
+            <a style="text-decoration: none; color: #308ce2;" 
+            href="#"><b>Sign Up</b></a>
+        </div>
+        <div class="login-box-3">
+            <p>Get the app.</p>
+            <img class="margin-gambar" src="app-logo.png" width="130px" height="35px" alt="">
+            <img class="margin-gambar" src="google-play.png" width="140px" height="35px" alt="">
+            </div>
+        </div>
+        <!-- implementasi footer -->
+        <div class="footer">
+            <p2> 
+                About Blog Jobs Help API Privacy Terms Top Account Hashtags Location
+                <br>
+                Beauty Dance Fitness Food&Drink Home&Garden Music Visual Arts
+            </p2>
+            <br>
+            <p3>
+                English &copy;2021 Instagram from Facebook
+            </p3>
+        </div>
+    </body>
+</html>
